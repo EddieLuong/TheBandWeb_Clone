@@ -1,0 +1,89 @@
+@media (max-width:1024px) and (min-width:740px){
+    .modal-container{
+        width: 500px;
+        top: 50px;
+    }
+}
+@media (max-width:740px){
+    /* common */
+    .s-full-width{
+        width: 100%!important;
+    }
+    .font-size48px{
+        font-size: 48px;
+    }
+    .nav>li {
+        display: block;
+    }
+    .header{
+        overflow: hidden;
+    }
+    .search-icon{
+        display: none;
+    }
+    .ti-menu{
+        display: block;
+    }
+    .nav li a{
+        display: block;
+    }
+    .nav>li:first-child{
+        display: inline-block;
+    }
+    .nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    .subnav li a{
+        color: #fff;
+        padding: 5px 41px;
+        height: 48px;
+        line-height: 38px;
+    }
+    .slider-content {
+        display: none;
+    }
+    .member-item {
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    .place-item {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .modal-container{
+        width: 500px;
+        top: 50px;
+    }
+    .contact-form,
+    .contact-infor, 
+    .name-form, 
+    .mail-form{
+        width: 100%;
+    }
+    .contact-infor{
+        margin-bottom: 16px;
+    }
+    .respon-center{
+        text-align: center;
+    }
+    .contact-content{
+        margin-right: -16px;
+        margin-left: 0;
+    }
+    .message-form{
+        width: calc(100% + 16px);
+    }
+    .contact-form button{
+        margin: 0;
+        margin-top: 8px;
+    }
+}
+@media (max-width:540px) {
+    .modal-container{
+        width: calc(100% - 20px);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+}
